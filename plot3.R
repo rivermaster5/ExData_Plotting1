@@ -58,8 +58,7 @@ for (i in 3:5) {
 } 
 
 # add a legend 
-legend(xrange[2] - hours(12),
-       yrange[2],
+legend("topright",
        legend = colnames(hhpowerconsumption_raw[,3:5]),
        cex=0.8,
        lty=1,

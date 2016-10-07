@@ -78,8 +78,7 @@ bottomleft <- function() {
   } 
   
   # add a legend 
-  legend(xrange[2] - hours(12),
-         yrange[2],
+  legend("topright",
          legend = colnames(hhpowerconsumption_raw[,6:8]),
          cex=0.8,
          lty=1,
